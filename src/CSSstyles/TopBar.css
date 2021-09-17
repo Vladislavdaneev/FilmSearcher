@@ -1,0 +1,21 @@
+.Moto{
+    color:rgb(218, 211, 211);
+    cursor: default;
+}
+.Input{
+    border-radius: 10px;
+    outline: none;
+    border-color: #282c34;
+    padding: 0.6rem;
+    cursor: text;
+    width: 15rem;
+}
+.InputButton{
+    margin-left: 0.3rem;
+    color:black;
+    border-radius: 10px;
+    outline: none;
+    border-color: #282c34;
+    padding: 0.6rem;
+    cursor: pointer;
+}
