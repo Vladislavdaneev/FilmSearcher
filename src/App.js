@@ -8,9 +8,8 @@ function App() {
       <header className="App-header">
         <TopBar></TopBar>
       </header>
-      <TopBar></TopBar>
-    </div>
-  );
+     </div>
+  )
 }
 
 export default App;
