@@ -17,8 +17,8 @@ function TopBar(){
         }
     }
     function submitHandler (event){
-        event.preventDefault();
-        getMovieRequest(searchValue);
+        event.preventDefault()
+        getMovieRequest(searchValue)
         console.log(movies)
     }
     
@@ -35,7 +35,7 @@ function TopBar(){
                 </form>
                 
             </div>
-            <div className='MovieListBar'>
+            <div className='MovieList'>
                         <MovieList movies={movies}/>
                 </div>
         </div>
